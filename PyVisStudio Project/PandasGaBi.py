@@ -12,6 +12,7 @@ from os.path import join, dirname, abspath
 
 #upload excel with balance
 fname = join(dirname(abspath('__file__')), 'ElementaryFlows.xlsx')
+oname = join(dirname(abspath('__file__')), 'ElementaryFlows.json')
 
 xls=pd.ExcelFile(fname)
 
