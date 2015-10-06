@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html class=" is-copy-enabled" lang="en"><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=1020">
+    
+    
+    <title>Requests · mbostock/d3 Wiki</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://github.com/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://github.com/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://github.com/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://github.com/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site"><meta content="summary" name="twitter:card"><meta content="mbostock/d3" name="twitter:title"><meta content="d3 - A JavaScript visualization library for HTML and SVG." name="twitter:description"><meta content="https://avatars0.githubusercontent.com/u/230541?v=3&amp;s=400" name="twitter:image:src">
+      <meta content="GitHub" property="og:site_name"><meta content="object" property="og:type"><meta content="https://avatars0.githubusercontent.com/u/230541?v=3&amp;s=400" property="og:image"><meta content="mbostock/d3" property="og:title"><meta content="https://github.com/mbostock/d3" property="og:url"><meta content="d3 - A JavaScript visualization library for HTML and SVG." property="og:description">
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTI1ODQwODk6NWJmNDc1NWYwY2U4NDZjY2U2OTZjMGU3OGEyYmMwYzE6Y2YwYWIxMDM2ZTlmNWM0NWE5MzJhOGFlZDY1NjZmNGU0OTRjNzk3OTJhNmM3OWI2NzZhOWE1NzQxNmZhZGI4Mw==--65d352507a67c72797c8e8e50051cc7692784a0c">
+    <meta name="pjax-timeout" content="1000">
+    <link rel="sudo-modal" href="https://github.com/sessions/sudo_modal">
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_wiki" data-pjax-transient="">
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host"><meta content="collector-cdn.github.com" name="octolytics-script-host"><meta content="github" name="octolytics-app-id"><meta content="C332BD3C:108B:1610B876:5613F956" name="octolytics-dimension-request_id"><meta content="12584089" name="octolytics-actor-id"><meta content="moxpower" name="octolytics-actor-login"><meta content="da7fc17323f1c12ebafd1d8bc44edcabe4530aab0b0e8b7012b1fa658c38a34a" name="octolytics-actor-hash">
+
+<meta content="Rails, view, wiki#show" data-pjax-transient="true" name="analytics-event">
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged In">
+    <meta class="js-ga-set" name="dimension4" content="Current repo nav">
+
+
+
+
+    <meta name="is-dotcom" content="true">
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="moxpower">
+
+      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+      <!-- </textarea> --><!-- '"` --><meta content="authenticity_token" name="csrf-param">
+<meta content="0dyb5xUvrYRjhkuSJ3jb+WeMY9vE1hzNDMfvnZAXrKjk+qrS4KRvIvPGQuZvPJxJ2QePuGOsfWoKaTH2SKltCw==" name="csrf-token">
+    <meta content="e9bbcef016ec252cfe9e467ed1973e2bdc853710" name="form-nonce">
+
+    <link crossorigin="anonymous" href="Requests%20%C2%B7%20mbostock_d3%20Wiki_files/github-923625b9d2e4b6f88c21f82fc71af24018eb1a9fbc8fc1151778e.css" media="all" rel="stylesheet">
+    <link crossorigin="anonymous" href="Requests%20%C2%B7%20mbostock_d3%20Wiki_files/github2-9ad3aee49df1512bdaf35b062454a5d482df8542ac4ac78ba548.css" media="all" rel="stylesheet">
+    
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="19d024c0fced31f28fd27be23478af50">
+
+      
+  <meta name="description" content="d3 - A JavaScript visualization library for HTML and SVG.">
+  <meta name="go-import" content="github.com/mbostock/d3 git https://github.com/mbostock/d3.git">
+
+  <meta content="230541" name="octolytics-dimension-user_id"><meta content="mbostock" name="octolytics-dimension-user_login"><meta content="943149" name="octolytics-dimension-repository_id"><meta content="mbostock/d3" name="octolytics-dimension-repository_nwo"><meta content="true" name="octolytics-dimension-repository_public"><meta content="false" name="octolytics-dimension-repository_is_fork"><meta content="943149" name="octolytics-dimension-repository_network_root_id"><meta content="mbostock/d3" name="octolytics-dimension-repository_network_root_nwo">
+  <link href="https://github.com/mbostock/d3/commits/master.atom" rel="alternate" title="Recent Commits to d3:master" type="application/atom+xml">
+
+  <script src="Requests%20%C2%B7%20mbostock_d3%20Wiki_files/api.js" async="" type="text/javascript"></script></head>
+
+
+  <body class="logged_in   env-production windows vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+
+    
+    
+    
+
+
+
+      <div class="header header-logged-in true" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <span class="mega-octicon octicon-mark-github"></span>
+</a>
+
+
+      <div class="site-search repo-scope js-site-search" role="search">
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/mbostock/d3/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/mbostock/d3/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" value="✓" type="hidden"></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input class="js-site-search-focus js-site-search-field is-clearable chromeless-input" data-hotkey="s" name="q" placeholder="Search" aria-label="Search this repository" data-global-scope-placeholder="Search GitHub" data-repo-scope-placeholder="Search" tabindex="1" autocapitalize="off" type="text">
+  </label>
+</form>
+      </div>
+
+      <ul class="header-nav left" role="navigation">
+        <li class="header-nav-item">
+          <a href="https://github.com/pulls" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
+            Pull requests
+</a>        </li>
+        <li class="header-nav-item">
+          <a href="https://github.com/issues" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
+            Issues
+</a>        </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://gist.github.com/" data-ga-click="Header, go to gist, text:gist">Gist</a>
+          </li>
+      </ul>
+
+    
+<ul class="header-nav user-nav right" id="user-links">
+  <li class="header-nav-item">
+      <span class="js-socket-channel js-updatable-content" data-channel="notification-changed:moxpower" data-url="/notifications/header">
+      <a href="https://github.com/notifications" aria-label="You have no unread notifications" class="header-nav-link notification-indicator tooltipped tooltipped-s" data-ga-click="Header, go to notifications, icon:read" data-hotkey="g n">
+          <span class="mail-status all-read"></span>
+          <span class="octicon octicon-bell"></span>
+</a>  </span>
+
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link tooltipped tooltipped-s js-menu-target" href="https://github.com/new" aria-label="Create new…" data-ga-click="Header, create new, icon:add">
+      <span class="octicon octicon-plus left"></span>
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="https://github.com/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+
+  <a class="dropdown-item" href="https://github.com/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="mbostock/d3">This repository</span>
+  </div>
+    <a class="dropdown-item" href="https://github.com/mbostock/d3/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+
+      </ul>
+    </div>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link name tooltipped tooltipped-s js-menu-target" href="https://github.com/moxpower" aria-label="View profile and more" data-ga-click="Header, show menu, icon:avatar">
+      <img alt="@moxpower" class="avatar" src="Requests%20%C2%B7%20mbostock_d3%20Wiki_files/12584089.jpg" height="20" width="20">
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <div class="dropdown-menu  dropdown-menu-sw">
+        <div class=" dropdown-header header-nav-current-user css-truncate">
+            Signed in as <strong class="css-truncate-target">moxpower</strong>
+
+        </div>
+
+
+        <div class="dropdown-divider"></div>
+
+          <a class="dropdown-item" href="https://github.com/moxpower" data-ga-click="Header, go to profile, text:your profile">
+            Your profile
+          </a>
+        <a class="dropdown-item" href="https://github.com/stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a>
+        <a class="dropdown-item" href="https://github.com/explore" data-ga-click="Header, go to explore, text:explore">
+          Explore
+        </a>
+          <a class="dropdown-item" href="https://github.com/integrations" data-ga-click="Header, go to integrations, text:integrations">
+            Integrations
+          </a>
+        <a class="dropdown-item" href="https://help.github.com/" data-ga-click="Header, go to help, text:help">
+          Help
+        </a>
+
+          <div class="dropdown-divider"></div>
+
+          <a class="dropdown-item" href="https://github.com/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+            Settings
+          </a>
+
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="e9bbcef016ec252cfe9e467ed1973e2bdc853710" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="jvJ+umhs/OBxgVbMvYs58Tkbj1mLc3JrhaTZv9+Cylbv8FdbfmwHByUGqsWndK+Z79MMNtxJBPPW2ON5IgAyeQ==" type="hidden"></div>
+            <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+              Sign out
+            </button>
+</form>
+      </div>
+    </div>
+  </li>
+</ul>
+
+
+    
+  </div>
+</div>
+
+      
+
+      
+
+
+    <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+    <div role="main" class="main-content">
+        <div itemscope="" itemtype="http://schema.org/WebPage">
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+
+      <div class="container">
+
+        <div class="clearfix">
+          
+
+<ul class="pagehead-actions">
+
+  <li>
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="e9bbcef016ec252cfe9e467ed1973e2bdc853710" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="7MOUqk2h3BGNK86lQSS6q7DgIfP7RSRi+nDFV9qimjVT6bbEU2rlhgin7sulrTNhvjK0yxkVZFjbjwoMMR3ESQ==" type="hidden"></div>    <input id="repository_id" name="repository_id" value="943149" type="hidden">
+
+      <div class="select-menu js-menu-container js-select-menu">
+        <a href="https://github.com/mbostock/d3/subscription" class="btn btn-sm btn-with-count select-menu-button js-menu-target" role="button" tabindex="0" aria-haspopup="true" data-ga-click="Repository, click Watch settings, action:wiki#show">
+          <span class="js-select-button">
+            <span class="octicon octicon-eye"></span>
+            Watch
+          </span>
+        </a>
+        <a class="social-count js-social-count" href="https://github.com/mbostock/d3/watchers">
+          1,889
+        </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="true">
+            <div class="select-menu-header">
+              <span class="select-menu-title">Notifications</span>
+              <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+            </div>
+
+            <div class="select-menu-list js-navigation-container" role="menu">
+
+              <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input checked="checked" id="do_included" name="do" value="included" type="radio">
+                  <span class="select-menu-item-heading">Not watching</span>
+                  <span class="description">Be notified when participating or @mentioned.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-eye"></span>
+                    Watch
+                  </span>
+                </div>
+              </div>
+
+              <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input id="do_subscribed" name="do" value="subscribed" type="radio">
+                  <span class="select-menu-item-heading">Watching</span>
+                  <span class="description">Be notified of all conversations.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-eye"></span>
+                    Unwatch
+                  </span>
+                </div>
+              </div>
+
+              <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input id="do_ignore" name="do" value="ignore" type="radio">
+                  <span class="select-menu-item-heading">Ignoring</span>
+                  <span class="description">Never be notified.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-mute"></span>
+                    Stop ignoring
+                  </span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+</form>
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container on">
+
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/mbostock/d3/unstar" class="js-toggler-form starred js-unstar-button" data-form-nonce="e9bbcef016ec252cfe9e467ed1973e2bdc853710" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="XwRGk0vbHvR8KFHaNKbGYmbBfRTW0sfJtOdN44nt2Y+DvSOQ7M3SEPaO/uo+5VTltRrfupZogCNMv98V28eP8A==" type="hidden"></div>
+      <button class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar mbostock/d3" data-ga-click="Repository, click unstar button, action:wiki#show; text:Unstar">
+        <span class="octicon octicon-star"></span>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="https://github.com/mbostock/d3/stargazers">
+          42,152
+        </a>
+</form>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/mbostock/d3/star" class="js-toggler-form unstarred js-star-button" data-form-nonce="e9bbcef016ec252cfe9e467ed1973e2bdc853710" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="7/VKXhmcFDPVHHby1Ub469WWBTOq9pZJwx61CAfHHfQZdeLy+ZKXIsHpuhqMfG5Z7WHEQ+lyxK4NEppYd4rG9Q==" type="hidden"></div>
+      <button class="btn btn-sm btn-with-count js-toggler-target" aria-label="Star this repository" title="Star mbostock/d3" data-ga-click="Repository, click star button, action:wiki#show; text:Star">
+        <span class="octicon octicon-star"></span>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="https://github.com/mbostock/d3/stargazers">
+          42,152
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/mbostock/d3/fork" class="btn-with-count" data-form-nonce="e9bbcef016ec252cfe9e467ed1973e2bdc853710" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="QUOes5ffe4qVr+FBaU9bGkmIi6qk2/3Vw0NB9/hW6rRJdJxSXs0ioV7mfILkY85DtXHhfbzuII2whQDMcWPAxw==" type="hidden"></div>
+            <button type="submit" class="btn btn-sm btn-with-count" data-ga-click="Repository, show fork modal, action:wiki#show; text:Fork" title="Fork your own copy of mbostock/d3 to your account" aria-label="Fork your own copy of mbostock/d3 to your account">
+              <span class="octicon octicon-repo-forked"></span>
+              Fork
+            </button>
+</form>
+    <a href="https://github.com/mbostock/d3/network" class="social-count">
+      11,111
+    </a>
+  </li>
+</ul>
+
+          <h1 itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public ">
+  <span class="mega-octicon octicon-repo"></span>
+  <span class="author"><a href="https://github.com/mbostock" class="url fn" itemprop="url" rel="author"><span itemprop="title">mbostock</span></a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong><a href="https://github.com/mbostock/d3" data-pjax="#js-repo-pjax-container">d3</a></strong>
+
+  <span class="page-context-loader">
+    <img alt="" src="Requests%20%C2%B7%20mbostock_d3%20Wiki_files/octocat-spinner-32.gif" height="16" width="16">
+  </span>
+
+</h1>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline">
+        <div class="repository-sidebar clearfix">
+          
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders" role="navigation" data-pjax="#js-repo-pjax-container" data-issue-count-url="/mbostock/d3/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="https://github.com/mbostock/d3" aria-label="Code" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /mbostock/d3">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" src="Requests%20%C2%B7%20mbostock_d3%20Wiki_files/octocat-spinner-32.gif" height="16" width="16">
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="https://github.com/mbostock/d3/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /mbostock/d3/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" src="Requests%20%C2%B7%20mbostock_d3%20Wiki_files/octocat-spinner-32.gif" height="16" width="16">
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="https://github.com/mbostock/d3/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /mbostock/d3/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" src="Requests%20%C2%B7%20mbostock_d3%20Wiki_files/octocat-spinner-32.gif" height="16" width="16">
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Wiki">
+        <a href="https://github.com/mbostock/d3/wiki" aria-label="Wiki" aria-selected="true" class="js-selected-navigation-item selected sunken-menu-item" data-hotkey="g w" data-selected-links="repo_wiki /mbostock/d3/wiki">
+          <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+          <img alt="" class="mini-loader" src="Requests%20%C2%B7%20mbostock_d3%20Wiki_files/octocat-spinner-32.gif" height="16" width="16">
+</a>      </li>
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="https://github.com/mbostock/d3/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /mbostock/d3/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" src="Requests%20%C2%B7%20mbostock_d3%20Wiki_files/octocat-spinner-32.gif" height="16" width="16">
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="https://github.com/mbostock/d3/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /mbostock/d3/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" src="Requests%20%C2%B7%20mbostock_d3%20Wiki_files/octocat-spinner-32.gif" height="16" width="16">
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+            <div class="only-with-full-nav">
+                
+<div class="js-clone-url clone-url open" data-protocol-type="http">
+  <h3 class="text-small"><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input class="input-mini text-small input-monospace js-url-field js-zeroclipboard-target" value="https://github.com/mbostock/d3.git" readonly="readonly" aria-label="HTTPS clone URL" type="text">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url " data-protocol-type="ssh">
+  <h3 class="text-small"><span class="text-emphasized">SSH</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input class="input-mini text-small input-monospace js-url-field js-zeroclipboard-target" value="git@github.com:mbostock/d3.git" readonly="readonly" aria-label="SSH clone URL" type="text">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url " data-protocol-type="subversion">
+  <h3 class="text-small"><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input class="input-mini text-small input-monospace js-url-field js-zeroclipboard-target" value="https://github.com/mbostock/d3" readonly="readonly" aria-label="Subversion checkout URL" type="text">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<div class="clone-options text-small">You can clone with
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="e9bbcef016ec252cfe9e467ed1973e2bdc853710" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="vTPbc4XWRGlUr4CFGWuMJMhvG6uC9t8s28dDEzfZLypGWchXnR0Y0T7278FJ4A4G0TkhuAf6DvQNNAeDcOv+6A==" type="hidden"></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="e9bbcef016ec252cfe9e467ed1973e2bdc853710" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="Sy9DwLTP+x3tPF9WKP2eEjotxJUuanbSJnw5FU1nMbgh4nsbAFneaHGOvKMNFqXxg/WvnWGCbc2X0GW454pLbQ==" type="hidden"></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="e9bbcef016ec252cfe9e467ed1973e2bdc853710" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="O3r3DTGhwP5yDwfr/BJJQah2SJw5crjIy6Hxo8LQIvjVpva3zjLsRd3i2ok7xm47yUhXmBc9mhdVDtKzaCqZGQ==" type="hidden"></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</div>
+  <a href="github-windows://openRepo/https://github.com/mbostock/d3" class="btn btn-sm sidebar-button" title="Save mbostock/d3 to your computer and use it in GitHub Desktop." aria-label="Save mbostock/d3 to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-desktop-download"></span>
+    Clone in Desktop
+  </a>
+
+              <a href="https://github.com/mbostock/d3/archive/master.zip" class="btn btn-sm sidebar-button" aria-label="Download the contents of mbostock/d3 as a zip file" title="Download the contents of mbostock/d3 as a zip file" rel="nofollow">
+                <span class="octicon octicon-cloud-download"></span>
+                Download ZIP
+              </a>
+            </div>
+        </div>
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container="">
+
+          
+
+<div id="wiki-wrapper" class="wiki-wrapper page">
+<div class="gh-header">
+  <div class="gh-header-show">
+        <div class="gh-header-actions">
+          <a href="https://github.com/mbostock/d3/wiki/Requests/_edit" class="btn btn-sm ">Edit</a>
+          <a href="https://github.com/mbostock/d3/wiki/_new" class="btn btn-sm btn-primary">New Page</a>
+        </div>
+    <h1 class="gh-header-title instapaper_title">Requests</h1>
+      <div class="gh-header-meta">
+        MarkGStacey edited this page <time title="17. Sep. 2015 09:05 MESZ" datetime="2015-09-17T07:05:33Z" is="relative-time">19 days ago</time>
+        ·
+        <a href="https://github.com/mbostock/d3/wiki/Requests/_history" class="history">
+          38 revisions
+        </a>
+      </div>
+  </div>
+</div>
+<div id="wiki-content">
+  <div class="wrap has-rightbar">
+
+  <div id="wiki-rightbar">
+    <div class="wiki-pages-box readability-sidebar boxed-group flush js-wiki-pages-box " role="navigation">
+      
+<h3 class="js-wiki-toggle-collapse wiki-auxiliary-content">
+  <span class="octicon octicon-triangle-down caret-expanded"></span>
+  <span class="octicon octicon-triangle-right caret-collapsed"></span>
+  Pages <span class="counter">84</span>
+</h3>
+<div class="boxed-group-inner wiki-auxiliary-content wiki-auxiliary-content-no-bg">
+    <div class="filter-bar">
+      <input id="wiki-pages-filter" class="filter-input js-filterable-field" placeholder="Find a Page…" aria-label="Find a Page…" tabindex="2" type="text">
+    </div>
+
+  <ul class="wiki-pages" data-filterable-for="wiki-pages-filter" data-filterable-type="substring">
+    <li>
+      <strong><a href="https://github.com/mbostock/d3/wiki" class="wiki-page-link">Home</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/mbostock/d3/wiki/3.0" class="wiki-page-link">3.0</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/mbostock/d3/wiki/3.1" class="wiki-page-link">3.1</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/mbostock/d3/wiki/API--%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C" class="wiki-page-link">API  中文手册</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/mbostock/d3/wiki/API-Reference" class="wiki-page-link">API Reference</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/mbostock/d3/wiki/API-Reference-%28%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D1%8F%D0%B7%D1%8B%D1%87%D0%BD%D0%B0%D1%8F-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F%29" class="wiki-page-link">API Reference (русскоязычная версия)</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/mbostock/d3/wiki/Api-%E5%8F%82%E8%80%83" class="wiki-page-link">Api 参考</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/mbostock/d3/wiki/Arrays" class="wiki-page-link">Arrays</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/mbostock/d3/wiki/Behaviors" class="wiki-page-link">Behaviors</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/mbostock/d3/wiki/Bundle-Layout" class="wiki-page-link">Bundle Layout</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/mbostock/d3/wiki/Chord-Layout" class="wiki-page-link">Chord Layout</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/mbostock/d3/wiki/Cluster-Layout" class="wiki-page-link">Cluster Layout</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/mbostock/d3/wiki/CN-Home" class="wiki-page-link">CN Home</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/mbostock/d3/wiki/Colors" class="wiki-page-link">Colors</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/mbostock/d3/wiki/Core" class="wiki-page-link">Core</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/CSV" class="wiki-page-link">CSV</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Drag-Behavior" class="wiki-page-link">Drag Behavior</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Force-Layout" class="wiki-page-link">Force Layout</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Formatting" class="wiki-page-link">Formatting</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Gallery" class="wiki-page-link">Gallery</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Geo" class="wiki-page-link">Geo</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Geo-Paths" class="wiki-page-link">Geo Paths</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Geo-Projections" class="wiki-page-link">Geo Projections</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Geo-Streams" class="wiki-page-link">Geo Streams</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Geometry" class="wiki-page-link">Geometry</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Hierarchy-Layout" class="wiki-page-link">Hierarchy Layout</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Histogram-Layout" class="wiki-page-link">Histogram Layout</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Hull-Geom" class="wiki-page-link">Hull Geom</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/ID-Home" class="wiki-page-link">ID Home</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Internals" class="wiki-page-link">Internals</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/JP-3.0" class="wiki-page-link">JP 3.0</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/JP-API-Reference" class="wiki-page-link">JP API Reference</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/JP-Home" class="wiki-page-link">JP Home</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/JP-Tutorials" class="wiki-page-link">JP Tutorials</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Layouts" class="wiki-page-link">Layouts</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Learning-paths" class="wiki-page-link">Learning paths</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Localization" class="wiki-page-link">Localization</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Math" class="wiki-page-link">Math</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Namespaces" class="wiki-page-link">Namespaces</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Ordinal-Scales" class="wiki-page-link">Ordinal Scales</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Pack-Layout" class="wiki-page-link">Pack Layout</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Partition-Layout" class="wiki-page-link">Partition Layout</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Pie-Layout" class="wiki-page-link">Pie Layout</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Plugins" class="wiki-page-link">Plugins</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Polygon-Geom" class="wiki-page-link">Polygon Geom</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Quadtree-Geom" class="wiki-page-link">Quadtree Geom</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Quantitative-Scales" class="wiki-page-link">Quantitative Scales</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Release-Notes" class="wiki-page-link">Release Notes</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Requests" class="wiki-page-link">Requests</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Scales" class="wiki-page-link">Scales</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Selection-%28russians%29" class="wiki-page-link">Selection (russians)</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Selections" class="wiki-page-link">Selections</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Stack-Layout" class="wiki-page-link">Stack Layout</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/SVG" class="wiki-page-link">SVG</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/SVG-Axes" class="wiki-page-link">SVG Axes</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/SVG-Controls" class="wiki-page-link">SVG Controls</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/SVG-Events" class="wiki-page-link">SVG Events</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/SVG-Shapes" class="wiki-page-link">SVG Shapes</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Time" class="wiki-page-link">Time</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Time-Formatting" class="wiki-page-link">Time Formatting</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Time-Intervals" class="wiki-page-link">Time Intervals</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Time-Scales" class="wiki-page-link">Time Scales</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Transitions" class="wiki-page-link">Transitions</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Tree-Layout" class="wiki-page-link">Tree Layout</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Treemap-Layout" class="wiki-page-link">Treemap Layout</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Tutorials" class="wiki-page-link">Tutorials</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/TW-Home" class="wiki-page-link">TW Home</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Upgrading-to-3.0" class="wiki-page-link">Upgrading to 3.0</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Voronoi-Geom" class="wiki-page-link">Voronoi Geom</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/Zoom-Behavior" class="wiki-page-link">Zoom Behavior</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/%D0%92%D1%8B%D0%B1%D0%BE%D1%80%D0%BA%D0%B8" class="wiki-page-link">Выборки</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/%E5%88%86%E5%8C%BA%E5%B8%83%E5%B1%80" class="wiki-page-link">分区布局</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/%E5%B1%82%E6%AC%A1%E5%B8%83%E5%B1%80" class="wiki-page-link">层次布局</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/%E5%B8%83%E5%B1%80" class="wiki-page-link">布局</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/%E6%95%B0%E5%AD%A6" class="wiki-page-link">数学</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/%E6%95%B0%E7%BB%84" class="wiki-page-link">数组</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/%E6%9C%AC%E5%9C%B0%E5%8C%96" class="wiki-page-link">本地化</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/%E6%A0%B8%E5%BF%83%E5%87%BD%E6%95%B0" class="wiki-page-link">核心函数</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/%E6%A0%BC%E5%BC%8F%E5%8C%96" class="wiki-page-link">格式化</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/%E7%9F%A9%E5%BD%A2%E6%A0%91%E5%B8%83%E5%B1%80" class="wiki-page-link">矩形树布局</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/%E8%AF%B7%E6%B1%82" class="wiki-page-link">请求</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/%E8%BF%87%E6%B8%A1" class="wiki-page-link">过渡</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/%E9%80%89%E6%8B%A9%E5%99%A8" class="wiki-page-link">选择器</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/mbostock/d3/wiki/%E9%80%89%E6%8B%A9%E9%9B%86" class="wiki-page-link">选择集</a></strong>
+    </li>
+    <li class="wiki-more-pages-link">
+      <a href="#" class="js-wiki-more-pages-link">
+        Show 69 more pages…
+      </a>
+    </li>
+  </ul>
+</div>
+
+    </div>
+
+
+    <div class="clone-url">
+      <h5>Clone this wiki locally</h5>
+      <div class="input-group js-zeroclipboard-container">
+        <input class="input-mini text-small input-monospace js-url-field js-zeroclipboard-target" value="https://github.com/mbostock/d3.wiki.git" readonly="readonly" type="text">
+        <span class="input-group-button">
+          <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+        </span>
+      </div>
+
+
+        <a href="github-windows://openRepo/https://github.com/mbostock/d3.wiki" class="btn btn-sm sidebar-button" title="Save this wiki to your computer and use it in GitHub Desktop." aria-label="Save this wiki to your computer and use it in GitHub Desktop.">
+          <span class="octicon octicon-desktop-download"></span>
+          Clone in Desktop
+        </a>
+    </div>
+  </div>
+
+  <div id="wiki-body" class="gollum-markdown-content instapaper_body">
+    <div class="markdown-body">
+      <blockquote>
+<p><a href="https://github.com/mbostock/d3/wiki/Home">Wiki</a> ▸ <a class="internal present" href="https://github.com/mbostock/d3/wiki/API-Reference">API Reference</a> ▸ <a class="internal present" href="https://github.com/mbostock/d3/wiki/Core">Core</a> ▸ <strong>Requests</strong></p>
+</blockquote>
+
+<p>You can’t visualize data if you can’t access it! Fortunately, there 
+are many ways to get data into the browser. For small datasets, you 
+might hardcode the data in your script, or embed data in the DOM using <a href="http://ejohn.org/blog/html-5-data-attributes/">data attributes</a>. For larger datasets, you could load an external script that defines your data as a global variable. (<a href="http://en.wikipedia.org/wiki/JSONP">JSONP</a> is a common example of this.) But, the most versatile way of loading data into the browser is using an <a href="http://en.wikipedia.org/wiki/XMLHttpRequest">XMLHttpRequest</a>, or <strong>XHR</strong>. This allows data to be loaded <em>asynchronously</em>
+ (so the rest of the page can display while data is loading), and is 
+safer than JSONP. D3’s xhr module simplifies loading and parsing data.</p>
+
+<p>When loading data asynchronously, code that depends on the loaded 
+data should generally exist within the callback function. For example, 
+see the <a href="http://mbostock.github.com/d3/ex/calendar.html">calendar visualization</a>
+ on the D3 website. Code that doesn't depend on data can run immediately
+ when the page loads. Also, you may find it convenient to save loaded 
+data to the global namespace, so that you can access it after the 
+initial render, such as during a transition. You can do this using 
+closures, or simply assign the loaded data to a global:</p>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> data; <span class="pl-c">// a global</span>
+
+d3.json(<span class="pl-s"><span class="pl-pds">"</span>path/to/file.json<span class="pl-pds">"</span></span>, <span class="pl-k">function</span>(<span class="pl-smi">error</span>, <span class="pl-smi">json</span>) {
+  <span class="pl-k">if</span> (error) <span class="pl-k">return</span> <span class="pl-en">console</span>.<span class="pl-c1">warn</span>(error);
+  data <span class="pl-k">=</span> json;
+  visualizeit();
+});</pre></div>
+
+<p>By default, most browsers do not allow cross-domain requests. To <a href="http://enable-cors.org/">enable cross-domain requests</a>, have the server set the header Access-Control-Allow-Origin: *. For more details, see the W3C recommendation on <a href="http://www.w3.org/TR/cors/">Cross-Origin Resource Sharing</a>.
+ For IE9, d3.xhr uses the nonstandard XDomainRequest for cross-domain 
+requests. Note that to send credentials, the request will need to be 
+decorated with .on("beforesend", function (request) 
+{request.withCredentials = true;}) and not using 
+.headers("withCredentials", "true")</p>
+
+<h2>
+<a id="user-content-xhr" class="anchor" href="#xhr" aria-hidden="true"><span class="octicon octicon-link"></span></a>XHR</h2>
+
+<p><a name="user-content-d3_xhr" href="#d3_xhr">#</a> d3.<b>xhr</b>(<i>url</i>[, <i>mimeType</i>][, <i>callback</i>])</p>
+
+<p>Creates an asynchronous request for specified <em>url</em>. An optional <em>mime type</em> may be specified as the second argument, such as "text/plain". If a <em>callback</em>
+ is specified, the request is immediately issued with the GET method and
+ the callback is invoked asynchronously when the resource is loaded or 
+the request fails; the callback is invoked with two arguments: the 
+error, if any, and the XMLHttpRequest object representing the response. 
+The response is undefined if an error occurs. If the response has an 
+unsuccessful status code, the error is the XMLHttpRequest object. If no 
+callback is specified, the returned request can be issued using <a href="#get">xhr.get</a>, <a href="#post">xhr.post</a> or similar, and handled using <a href="#on">xhr.on</a>.</p>
+
+<p><a name="user-content-header" href="#header">#</a> xhr.<b>header</b>(<i>name</i>[, <i>value</i>])</p>
+
+<p>If <em>value</em> is specified, sets the request header with the specified <em>name</em> to the specified value. If <em>value</em> is null, removes the request header with the specified <em>name</em>. If <em>value</em> is not specified, returns the current value of the request header with the specified <em>name</em>. Header names are case-insensitive.</p>
+
+<p>Request headers can only be modified before the request is <a href="#sent">sent</a>. Therefore, you cannot pass a callback to the <a href="#d3_xhr">d3.xhr constructor</a> if you wish to specify a header. Instead, use <a href="#get">xhr.get</a> or similar. For example:</p>
+
+<div class="highlight highlight-source-js"><pre>d3.csv(<span class="pl-s"><span class="pl-pds">"</span>/path/to/file.csv<span class="pl-pds">"</span></span>)
+    .header(<span class="pl-s"><span class="pl-pds">"</span>header-name<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>header-value<span class="pl-pds">"</span></span>)
+    .get(<span class="pl-k">function</span>(<span class="pl-smi">error</span>, <span class="pl-smi">data</span>) {
+      <span class="pl-c">// callback</span>
+    });</pre></div>
+
+<p><a name="user-content-mimeType" href="#mimeType">#</a> xhr.<b>mimeType</b>([<i>type</i>])</p>
+
+<p>If <em>type</em> is specified, sets the request mime type to the specified value. If <em>type</em> is null, clears the current mime type, if any. If <em>type</em> is not specified, returns the current mime type, which defaults to null. The mime type is used to both set the <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html">"Accept" request header</a> and for <a href="http://www.w3.org/TR/XMLHttpRequest/#the-overridemimetype%28%29-method">overrideMimeType</a>, where supported. Request headers can only be modified before the request is <a href="#sent">sent</a>.</p>
+
+<p><a name="user-content-responseType" href="#responseType">#</a> xhr.<b>responseType</b>(<i>type</i>)</p>
+
+<p>If <em>type</em> is specified, sets the <a href="http://www.w3.org/TR/XMLHttpRequest/#the-responsetype-attribute">response type</a>, e.g. "", "arraybuffer", "blob", "document", or "text". If <em>type</em> is not specified, returns the current response type, which defaults to "".</p>
+
+<p><a name="user-content-response" href="#response">#</a> xhr.<b>response</b>(<i>value</i>)</p>
+
+<p>If <em>value</em> is specified, sets the response value function to the specified function. If <em>value</em>
+ is not specified, returns the current response value function, which 
+defaults to the identity function. The response value function is used 
+to map the response XMLHttpRequest object to its associated data value. 
+For example, for text requests, you might use <code>function(request) { return request.responseText; }</code>, whereas for JSON requests, you might use <code>function(request) { return JSON.parse(request.responseText); }</code>.</p>
+
+<p><a name="user-content-get" href="#get">#</a> xhr.<b>get</b>([<i>callback</i>])</p>
+
+<p>Issues this request using the GET method. If a <em>callback</em> is 
+specified, it will be invoked asynchronously when the request is done or
+ errors; the callback is invoked with two arguments: the error, if any, 
+and the response value. The response value is undefined if an error 
+occurs. If no <em>callback</em> is specified, then "load" and "error" listeners should be registered via <a href="#on">xhr.on</a>. This method is a convenience wrapper of <a href="#send">xhr.send</a>.</p>
+
+<p><a name="user-content-post" href="#post">#</a> xhr.<b>post</b>([<i>data</i>][, <i>callback</i>])</p>
+
+<p>Issues this request using the POST method, optionally posting the specified <em>data</em> in the request body. If a <em>callback</em>
+ is specified, it will be invoked asynchronously when the request is 
+done or errors; the callback is invoked with two arguments: the error, 
+if any, and the response value. The response value is undefined if an 
+error occurs. If no <em>callback</em> is specified, then "load" and "error" listeners should be registered via <a href="#on">xhr.on</a>. This method is a convenience wrapper of <a href="#send">xhr.send</a>.</p>
+
+<p>An example using URL encoding:</p>
+
+<div class="highlight highlight-source-js"><pre>d3.csv(<span class="pl-s"><span class="pl-pds">"</span>/path/to/file.csv<span class="pl-pds">"</span></span>)
+    .header(<span class="pl-s"><span class="pl-pds">"</span>Content-Type<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>application/x-www-form-urlencoded<span class="pl-pds">"</span></span>)
+    .post(<span class="pl-s"><span class="pl-pds">"</span>a=2&amp;b=3<span class="pl-pds">"</span></span>, <span class="pl-k">function</span>(<span class="pl-smi">error</span>, <span class="pl-smi">data</span>) {
+      <span class="pl-c">// callback</span>
+    });</pre></div>
+
+<p>An example using JSON encoding:</p>
+
+<div class="highlight highlight-source-js"><pre>d3.csv(<span class="pl-s"><span class="pl-pds">"</span>/path/to/file.csv<span class="pl-pds">"</span></span>)
+    .header(<span class="pl-s"><span class="pl-pds">"</span>Content-Type<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>application/json<span class="pl-pds">"</span></span>)
+    .post(<span class="pl-c1">JSON</span>.stringify({a<span class="pl-k">:</span> <span class="pl-c1">2</span>, b<span class="pl-k">:</span> <span class="pl-c1">3</span>}), <span class="pl-k">function</span>(<span class="pl-smi">error</span>, <span class="pl-smi">data</span>) {
+      <span class="pl-c">// callback</span>
+    });</pre></div>
+
+<p><a name="user-content-send" href="#send">#</a> xhr.<b>send</b>(<i>method</i>[, <i>data</i>][, <i>callback</i>])</p>
+
+<p>Issues this request using the specified <em>method</em>, optionally posting the specified <em>data</em> in the request body. If a <em>callback</em>
+ is specified, it will be invoked asynchronously when the request is 
+done or errors; the callback is invoked with two arguments: the error, 
+if any, and the response value. The response value is undefined if an 
+error occurs. If no <em>callback</em> is specified, then "load" and "error" listeners should be registered via <a href="#on">xhr.on</a>.</p>
+
+<p><a name="user-content-abort" href="#abort">#</a> xhr.<b>abort</b>()</p>
+
+<p>Aborts this request, if it is currently in-flight. See <a href="http://www.w3.org/TR/XMLHttpRequest/#the-abort%28%29-method">XMLHttpRequest’s abort</a>.</p>
+
+<p><a name="user-content-on" href="#on">#</a> xhr.<b>on</b>(<i>type</i>[, <i>listener</i>])</p>
+
+<p>Adds or removes an event <em>listener</em> to this request for the specified <em>type</em>. The type must be one of the following:</p>
+
+<ul>
+<li>
+<em>beforesend</em> - before the request is sent, to allow custom headers and the like to be set.</li>
+<li>
+<em>progress</em> - to monitor the <a href="http://www.w3.org/TR/progress-events/">progress of the request</a>.</li>
+<li>
+<em>load</em> - when the request completes successfully.</li>
+<li>
+<em>error</em> - when the request completes unsuccessfully; this includes 4xx and 5xx response codes.</li>
+</ul>
+
+<p>If an event listener was already registered for the same type, the 
+existing listener is removed before the new listener is added. To 
+register multiple listeners for the same event type, the type may be 
+followed by an optional namespace, such as "load.foo" and "load.bar". To
+ remove a listener, pass null as the listener.</p>
+
+<p>If <em>listener</em> is not specified, returns the currently-assigned listener for the specified type, if any.</p>
+
+<h2>
+<a id="user-content-convenience-methods" class="anchor" href="#convenience-methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Convenience Methods</h2>
+
+<p>Often, d3.xhr is not used directly. Instead, one of the type-specific methods is used instead, such as <a href="#d3_text">d3.text</a> for plain text, <a href="#d3_json">d3.json</a> for JSON, <a href="#d3_xml">d3.xml</a> for XML, <a href="#d3_html">d3.html</a> for HTML, <a href="#d3_csv">d3.csv</a> for comma-separated values, and <a href="#d3_tsv">d3.tsv</a> for tabulation-separated values.</p>
+
+<p><a name="user-content-d3_text" href="https://github.com/mbostock/d3/wiki/Requests#d3_text">#</a> d3.<b>text</b>(<i>url</i>[, <i>mimeType</i>][, <i>callback</i>])</p>
+
+<p>Creates a request for the text file at the specified <em>url</em>. An optional <em>mime type</em> may be specified as the second argument, such as "text/plain". If a <em>callback</em>
+ is specified, the request is immediately issued with the GET method, 
+and the callback will be invoked asynchronously when the file is loaded 
+or the request fails; the callback is invoked with two arguments: the 
+error, if any, and the response text. The response text is undefined if 
+an error occurs. If no callback is specified, the returned request can 
+be issued using xhr.get or similar, and handled using xhr.on.</p>
+
+<p><a name="user-content-d3_json" href="https://github.com/mbostock/d3/wiki/Requests#d3_json">#</a> d3.<b>json</b>(<i>url</i>[, <i>callback</i>])</p>
+
+<p>Creates a request for the <a href="http://json.org/">JSON</a> file at the specified <em>url</em> with the mime type "application/json". If a <em>callback</em>
+ is specified, the request is immediately issued with the GET method, 
+and the callback will be invoked asynchronously when the file is loaded 
+or the request fails; the callback is invoked with two arguments: the 
+error, if any, and the parsed JSON. The parsed JSON is undefined if an 
+error occurs. If no callback is specified, the returned request can be 
+issued using xhr.get or similar, and handled using xhr.on.</p>
+
+<p><a name="user-content-d3_xml" href="https://github.com/mbostock/d3/wiki/Requests#d3_xml">#</a> d3.<b>xml</b>(<i>url</i>[, <i>mimeType</i>][, <i>callback</i>])</p>
+
+<p>Creates a request for the XML file at the specified <em>url</em>. An optional <em>mime type</em> may be specified as the second argument, such as "application/xml". If a <em>callback</em>
+ is specified, the request is immediately issued with the GET method, 
+and the callback will be invoked asynchronously when the file is loaded 
+or the request fails; the callback is invoked with two arguments: the 
+error, if any, and the parsed XML as a <a href="http://www.w3.org/TR/XMLHttpRequest/#the-responsexml-attribute">document</a>.
+ The parsed XML is undefined if an error occurs. If no callback is 
+specified, the returned request can be issued using xhr.get or similar, 
+and handled using xhr.on.</p>
+
+<p><a name="user-content-d3_html" href="https://github.com/mbostock/d3/wiki/Requests#d3_html">#</a> d3.<b>html</b>(<i>url</i>[, <i>callback</i>])</p>
+
+<p>Creates a request for the HTML file at the specified <em>url</em> with the mime type "text/html". If a <em>callback</em>
+ is specified, the request is immediately issued with the GET method, 
+and the callback will be invoked asynchronously when the file is loaded 
+or the request fails; the callback is invoked with two arguments: the 
+error, if any, and the parsed HTML as a <a href="https://developer.mozilla.org/en-US/docs/DOM/range.createContextualFragment">document fragment</a>.
+ The parsed HTML is undefined if an error occurs. If no callback is 
+specified, the returned request can be issued using xhr.get or similar, 
+and handled using xhr.on.</p>
+
+<p><a name="user-content-d3_csv" href="https://github.com/mbostock/d3/wiki/CSV">#</a> d3.<b>csv</b>(<i>url</i>[, <i>accessor</i>][, <i>callback</i>])</p>
+
+<p>Creates a request for the <a class="internal present" href="https://github.com/mbostock/d3/wiki/CSV">CSV</a> file at the specified <em>url</em> with the mime type "text/csv". If a <em>callback</em>
+ is specified, the request is immediately issued with the GET method, 
+and the callback will be invoked asynchronously when the file is loaded 
+or the request fails; the callback is invoked with two arguments: the 
+error, if any, and the array of <a href="https://github.com/mbostock/d3/wiki/CSV#parse">parsed rows</a> per <a href="http://tools.ietf.org/html/rfc4180">RFC 4180</a>.
+ The rows array is undefined if an error occurs. If no callback is 
+specified, the returned request can be issued using xhr.get or similar, 
+and handled using xhr.on.</p>
+
+<p><a name="user-content-d3_tsv" href="https://github.com/mbostock/d3/wiki/CSV#tsv">#</a> d3.<b>tsv</b>(<i>url</i>[, <i>accessor</i>][, <i>callback</i>])</p>
+
+<p>Creates a request for the <a href="https://github.com/mbostock/d3/wiki/CSV#d3_tsv">TSV</a> file at the specified <em>url</em> with the mime type "text/tab-separated-values". If a <em>callback</em>
+ is specified, the request is immediately issued with the GET method, 
+and the callback will be invoked asynchronously when the file is loaded 
+or the request fails; the callback is invoked with two arguments: the 
+error, if any, and the array of <a href="https://github.com/mbostock/d3/wiki/CSV#tsv_parse">parsed rows</a> per <a href="http://tools.ietf.org/html/rfc4180">RFC 4180</a>.
+ The rows array is undefined if an error occurs. If no callback is 
+specified, the returned request can be issued using xhr.get or similar, 
+and handled using xhr.on.</p>
+
+    </div>
+
+  </div>
+  </div>
+</div>
+</div>
+
+
+        </div>
+      </div>
+      <div class="modal-backdrop"></div>
+    </div>
+  </div>
+
+
+    </div>
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com/" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com/" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com/" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a href="https://github.com/pricing" data-ga-click="Footer, go to pricing, text:pricing">Pricing</a></li>
+
+    </ul>
+
+    <a href="https://github.com/" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>© 2015 <span title="0.21875s from github-fe131-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+        <li><a href="https://help.github.com/" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <span class="octicon octicon-x"></span>
+      </button>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="Requests%20%C2%B7%20mbostock_d3%20Wiki_files/frameworks-f8473dece7242da6a20d52313634881b3975c52cebaa1e6c38.js"></script>
+      <script async="async" crossorigin="anonymous" src="Requests%20%C2%B7%20mbostock_d3%20Wiki_files/github-7ac34dfed34a13a6e71de82dce5115d023d7db48bfba91b2250fc0.js"></script>
+      
+        <script crossorigin="anonymous" src="Requests%20%C2%B7%20mbostock_d3%20Wiki_files/wiki-2a65218f52c4b635a09dc2b9af49a1339687c2aaf65661558681f037.js"></script>
+
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <span class="octicon octicon-alert"></span>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+  
+
+
+</body></html>
