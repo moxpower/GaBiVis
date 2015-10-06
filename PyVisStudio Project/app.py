@@ -13,7 +13,7 @@ app = Flask(__name__)
 #COLLECTION_NAME = 'projects'
 #FIELDS = {'school_state': True, 'resource_type': True, 'poverty_level': True, 'date_posted': True, 'total_donations': True, '_id': False}
 
-
+#http://127.0.0.1:5000/
 @app.route("/")
 def test():
     return 'Everything is running!'
@@ -50,7 +50,7 @@ df['Flowtypes'].fillna("Emissions to air", inplace=True)
 #df=df.set_index(['ElementaryFlows'])
 
 
-
+#http://127.0.0.1:5000/projects/highpoverty/states
 @app.route('/projects/highpoverty/states')
 def high_poverty_states():
  #   donors_choose_url = "http://api.donorschoose.org/common/json_feed.html?highLevelPoverty=true&APIKey=DONORSCHOOSE"
