@@ -49,9 +49,12 @@ df['Flowtypes'].fillna("Emissions to air", inplace=True)
 #df=df.drop(['Total'], axis=1)
 #df=df.set_index(['ElementaryFlows'])
 
+#---------------------------------------
+#-JSON needs to be adapted to vis needs-
+#---------------------------------------
 
-#http://127.0.0.1:5000/projects/highpoverty/states
-@app.route('/projects/highpoverty/states')
+#http://127.0.0.1:5000/balance/elementaryresults
+@app.route('/balance/elementaryresults')
 def high_poverty_states():
  #   donors_choose_url = "http://api.donorschoose.org/common/json_feed.html?highLevelPoverty=true&APIKey=DONORSCHOOSE"
  #   response = urllib2.urlopen(donors_choose_url)
