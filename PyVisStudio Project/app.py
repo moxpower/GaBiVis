@@ -26,6 +26,7 @@ import matplotlib
 matplotlib.style.use('ggplot')
 from pylab import rcParams
 rcParams['figure.figsize'] = 13, 10
+import urllib2
 #import json
 
 from os.path import join, dirname, abspath
@@ -59,13 +60,22 @@ def high_poverty_states():
  #   donors_choose_url = "http://api.donorschoose.org/common/json_feed.html?highLevelPoverty=true&APIKey=DONORSCHOOSE"
  #   response = urllib2.urlopen(donors_choose_url)
  #   json_response = json.load(response)
-    return df.to_json()   
+    states=set()
+    states.add("BA")
+    states.add("NW")
+    return json.dumps(list(states))
 
-#    states = set()
-#    for proposal in json_response["proposals"]:
-#        states.add(proposal["state"])
-#
-#    return json.dumps(list(states))
+#http://127.0.0.1:5000/test
+@app.route('/test')
+def high_poverty_states2():
+    donors_choose_url = "http://api.donorschoose.org/common/json_feed.html?highLevelPoverty=true&APIKey=DONORSCHOOSE"
+    response = urllib2.urlopen(donors_choose_url)
+    json_response = json.load(response)
+    states1 = set()
+    for proposal in json_response["proposals"]:
+        states1.add(proposal["state"])
+
+    return json.dumps(list(states1))
   
 if __name__ == "__main__":
     app.run(host='0.0.0.0',port=5000,debug=True)
