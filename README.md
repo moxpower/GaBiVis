@@ -1,5 +1,5 @@
 # GaBi Visualization
-Task: Visualize GaBi data in D3
+Task: Visualize GaBi data in D3js
 
 Starting from a 'GaBi balance' LCA export in xls format, I want to create simple interactive D3 visualizations (using Python, MongoDB, D3).
 
